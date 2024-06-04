@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自适应两列布局</title>
+    <style>
+        .main,
+        .sidebar {
+            float: left;
+            color: white;
+        }
+
+        .main {
+            background-color: hotpink;
+            width: 100%;
+            margin-left: -200px;
+        }
+
+        .main p {
+            margin-left: 210px;
+        }
+
+        .sidebar {
+            background-color: lightskyblue;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <p>
+            这是主体部分，自适应宽度
+        </p>
+    </div>
+    <div class="sidebar">
+        <p>
+            这是侧边栏部分，固定宽度
+        </p>
+    </div>
+</body>
+
+</html>
