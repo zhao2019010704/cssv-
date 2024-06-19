@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header .message {
+    background-color: #333333;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message li {
+    list-style: none;
+}
+
+.message ul {
+    display: flex;
+    color: rgb(176, 176, 176);
+}
+
+.message span {
+    border-right: solid 1px rgb(176, 176, 176, 0.2);
+    padding: 0 10px;
+}
+
+.login span:last-child {
+    border: none;
+}
+
+.shopping img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.shopping {
+    width: 150px;
+    text-align: center;
+}
+
+.shopping:hover {
+    background-color: #4d4c4c;
+}
+
+.header2 {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    vertical-align:text-top;
+    border: solid 1px black;
+}
+
+.header2 img {
+    width: 56px;
+    height: 56px;
+}
+.categroy{
+    text-align: center;
+    border: solid 1px black;
+    line-height: 60px;
+}

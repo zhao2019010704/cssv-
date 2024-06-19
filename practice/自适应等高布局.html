@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>布局</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        #wrapper{
+            display: table-row;
+            border: solid 1px red;
+        }
+
+        img{
+            width: 150px;
+        }
+
+        #img-box{
+            display: table-cell;
+            width: 150px;
+            vertical-align:middle;
+            text-align: center;
+            border: solid 1px red;
+        }
+
+        #text-box{
+            display: table-cell;
+            border: solid 1px red;
+            width: 200px;
+            border-left: none;
+            padding: 10px;
+        }
+
+
+        ul{
+            display: table;
+            width: 200px;
+        }
+
+        li{
+            display: table-cell;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            color: white;
+        }
+        li:nth-child(1){background-color: red;}
+        li:nth-child(2){background-color: orange;}
+        li:nth-child(3){background-color: blue;}
+        li:nth-child(4){background-color: silver;}
+        li:nth-child(5){background-color: purple;}
+    </style>
+</head>
+<body>
+    <h1>自适应等高布局</h1>
+    <br/>
+    <div id="wrapper">
+        <div id="img-box">
+            <img src="/IMG/haizei.jpg" alt="">
+        </div>
+
+        <div id="text-box">
+            <span>《ONE PIECE》（海贼王、航海王）简称“OP”，是日本漫画家尾田荣一郎作画的少年漫画作品。在《周刊少年Jump》1997年34号开始连载。描写了拥有橡皮身体戴草帽的青年路飞，以成为“海贼王”为目标和同伴在大海展开冒险的故事。</span>
+        </div>
+    </div>
+
+    <h1>自动平均划分元素</h1>  <br/>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    
+</body>
+</html>
